@@ -1,0 +1,155 @@
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+     
+      background-color: #ffffff;
+       font-family: Roboto;
+       margin:10px;
+        align-items: center;
+       
+       
+    }
+    
+    .header {
+      padding: 20px;
+      color: black;
+      align-items: end;
+    }
+    
+    .main {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .item {
+      width: 400px;
+      height: 70%;
+      display: flex;
+      align-items: end;
+      padding: 10px;
+      margin: 5px;
+      color:white;
+     
+      font-weight: bold;
+    }
+    
+    
+    
+    .item.meal_plan {
+     
+     background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+    
+    .item.training_plan {
+      background-color: #00ccff;
+    }
+    
+    .item.supplement_routine {
+      background-color: #ff00cc;
+    }
+    
+    .item.track_progress {
+      background-color: #cccccc;
+    }
+    
+    .footer {
+      padding: 12px;
+      background-color: #cccccc;
+      color:white;
+      width: 400px;
+      
+    }
+    
+    .footer span {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    
+    .training_plan {
+      background: #f953c6;  
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  
+    background: linear-gradient(to right, #b91d73, #f953c6); 
+    }
+    
+    .supplement_routine {
+      background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    }
+    
+    .track_progress {
+      background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+    
+    .property-create {
+      display: flex;
+      width: 360px;
+      align-items: center;
+      position: relative;
+      background-color: #000000;
+    }
+    
+    .property-create .frame {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+    
+    .property-create .img {
+      position: relative;
+      width: 24px;
+      height: 24px;
+    }
+    
+    </style>
+    <div class="container">
+    
+      <div class=" header">
+        <h1 >Store</h1>
+      </div>
+      <div class="main">
+        <div class="item meal_plan">
+          
+          <span>Meal Plan</span>
+        </div>
+        <div class="item training_plan">
+          
+          <span>Training Plan</span>
+        </div>
+        <div class="item supplement_routine">
+          
+          <span>Supplement Routine</span>
+        </div>
+        <div class="item track_progress">
+         
+          <span>Track Progress</span>
+        </div>
+      </div>
+      <div class="footer">
+        
+         <div class="property-create">
+          <div class="frame">H</div>
+          <div class="frame">N</div>
+          <div class="frame"><span>S</span></div>
+          <div class="frame">Shop</div>
+          <div class="frame">Bar</div>
+        </div>
+      </div>
+    </div>
+    
+    
